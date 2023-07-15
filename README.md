@@ -1,4 +1,4 @@
-# 1 - Business Problem
+## 1 - Business Problem
 
 Gamers Club (aka GC) is a game platform that allows users to play games online using a freemium business model. Users can play for free, but in order to gain badges, skills, and benefits in the games, they need to subscribe. The CEO of GC has asked me, as a data analyst, to provide more visibility into the subscriptions to establish a foundation for future decisions and address customer churn.
 
@@ -13,27 +13,27 @@ tb_players: Contains data about players such as date of registration, date of bi
 tb_players_medalha: Contains data about medals earned in the game such as date of creation, date of expiration, and medal ID.
 tb_medalha: Contains data about each existing medal in the game, including description, type, and medal ID.
 
-# 2 - Premises
+## 2 - Premises
 
 The analysis considered data from September 2021 to February 2022.
 The assumed business model is free-to-play (F2P).
 The selected game for this analysis is Counter Strike.
 The solution aims to create an Analytical Base Table (ABT) with the necessary features to gain insights into subscription behavior among Counter Strike users. Additionally, an ETL process will be developed to automate the functionality of the ABT and make it scalable. The table will record data from a 30-day window to provide an understanding of CS gamers' subscription behavior in the last 30 days.
 
-# 3 - Solution Strategy
+## 3 - Solution Strategy
 
 The solution involves:
 Developing the ABT named tb_book_players, which will contain features such as player stats, lobby data, and medal data.
 Developing an ETL process in Python, utilizing libraries like SQLAlchemy, tqdm, and datetime, to populate the SQL table.
 
-# 4 - Final Product
+## 4 - Final Product
 
 The final product is a table loaded in the data warehouse, containing features that can be used for churn analysis, along with the ETL process behind it.
 
-# 5 - Conclusion
+## 5 - Conclusion
 
 The project successfully achieved its goal, as the ABT was created with features that provide a comprehensive understanding of CS gamers behavior.
 
-# 6 - Next Steps
+## 6 - Next Steps
 
 The next steps for the solution include developing machine learning (ML) models to predict future subscriptions and expanding the ABT and ML solutions to other products offered by the company.
