@@ -13,6 +13,9 @@ tb_players: Contains data about players such as date of registration, date of bi
 tb_players_medalha: Contains data about medals earned in the game such as date of creation, date of expiration, and medal ID.
 tb_medalha: Contains data about each existing medal in the game, including description, type, and medal ID.
 
+The access to the database is https://drive.google.com/file/d/1bdGq8UTDEpwNY2r_QJyX9wkuUQdnL7LN/view?usp=sharing
+
+
 ## 2 - Premises
 
 The analysis considered data from September 2021 to February 2022.
